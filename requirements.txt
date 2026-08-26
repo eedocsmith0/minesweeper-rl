@@ -1,0 +1,10 @@
+# Core dependencies for Minesweeper RL.
+# Install with:  pip install -r requirements.txt
+#
+# torch: any recent build works (CPU, CUDA, or ROCm). See https://pytorch.org
+# for the install command matching your hardware.
+torch>=2.4
+numpy>=2.0
+gymnasium>=1.0
+stable_baselines3>=2.4
+sb3_contrib>=2.4

@@ -1,0 +1,28 @@
+# Environments
+.venv/
+.venv*/
+
+# Generated artifacts (regenerable by the pipeline)
+data/
+models/
+runs/
+logs/
+
+# Personal ops tooling (not part of the published project)
+scripts/memguard.sh
+scripts/memguard.local.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime output and editor noise
+*.log
+*.state
+.docx
+*.docx
+.DS_Store
+
+# Mailbox transcripts and watermarks: local-only operational history
+coordination/to-*.jsonl
+coordination/.wm-*
