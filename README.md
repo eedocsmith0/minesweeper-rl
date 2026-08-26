@@ -199,28 +199,3 @@ keepalive.sh &                          # auto-restart watcher+dashboard if they
 All board sizes take `--width W --height H --mines M`. Training also
 takes `--run NAME` to label its curves on the dashboard.
 
-## 8. What each folder is
-
-```
-env/       the Minesweeper game itself (rules, rendering)
-agents/    training pipeline + the rule-solver teacher
-eval/      benchmarking, ensembles, watcher
-viz/       browser dashboard
-scripts/   housekeeping utilities
-coordination/  the two-agent protocol used during development
-PLAN.md    full design log, results, and campaign history
-HANDOFF.md how the ops/training split was run
-AGENTS.md  conventions for running the two-agent setup
-```
-
-## 9. If something breaks
-
-- `ModuleNotFoundError: No module named 'agents'` - you forgot the
-  `PYTHONPATH=.` prefix, or you are not in the project folder.
-- `command not found: python` - try `python3`.
-- `(.venv)` missing from your prompt - run
-  `source .venv/bin/activate` again.
-- Training is slow - normal on CPU for big boards; reduce `--games`
-  or `--epochs` while experimenting, or use a GPU (see step 1).
-- Dashboard page empty - start a training or evaluation run first;
-  the page fills as runs produce data.
