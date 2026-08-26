@@ -24,13 +24,13 @@ OS used was fedora43.
 
 ---
 
-## 0. What you need
+## 0. Requirements
 
 - Linux or macOS (Windows should work via WSL but im not sure)
 - Python 3.10 or newer
 
 
-## 1. One-time setup
+## 1. Setup
 
 Open a terminal **inside this project folder** and run these four
 commands, one at a time:
@@ -56,7 +56,7 @@ Optional (NVIDIA GPU): install the CUDA build of PyTorch following
 pytorch.org, and add `--device cuda` to training commands. AMD GPUs
 work too via ROCm. Everything else is identical.
 
-## 2. Train your first agent (about 15 minutes)
+## 2. Train your first agent
 
 Copy-paste these three commands. They create practice data, train the
 network on it, and then grade the result on 500 fresh boards it has
