@@ -19,6 +19,9 @@ web dashboard to watch games, and the campaign notes in PLAN.md.
 Everything runs on an ordinary laptop CPU. A GPU only makes training
 faster; it is not required.
 
+Total time for training on my personal system (7800x3d, RX7800xt, 32GB DDR5) was ~16hrs.
+OS used was fedora43.
+
 ---
 
 ## 0. What you need
