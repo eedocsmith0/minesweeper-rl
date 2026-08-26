@@ -26,11 +26,9 @@ OS used was fedora43.
 
 ## 0. What you need
 
-- Linux or macOS (Windows works via WSL2)
-- Python 3.10 or newer (`python3 --version` to check)
-- About 10 minutes for setup and your first trained agent
+- Linux or macOS (Windows should work via WSL but im not sure)
+- Python 3.10 or newer
 
-That is all.
 
 ## 1. One-time setup
 
