@@ -8,6 +8,8 @@ This is a personal project for me to learn more about the reinforcement learning
 
 The training was managed by 2 agents, a trainer agent handling all the bash commands for the training, another ops agent which gives updates to the training session by reading files and coordinating with the main trainer agent through a mailbox system.
 
+**Note: if you plan on using my handoff.md, be sure to change the current task section to whatever your agents are doing currently, or it could cause issues**
+
 Since an agent can't be directly interrupted during bash calls without the bash call stopping, a mailbox system was implemented where an ops agent/myself can append into a JSON file, where the main trainer agent reads on a timed loop. This allows "direct communications" throughout the long training sessions which lasted ~4h without interfering with the bash call.
 
 ## Monitoring of training when im not at my keyboard
