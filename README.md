@@ -1,4 +1,4 @@
-# Most of the significant agent iterations are located in release V1.0
+# Most of the significant agent iterations are located in release [V1.0](https://github.com/eedocsmith0/minesweeper-rl/releases/tag/v1.0)
 
 # Overview
 
