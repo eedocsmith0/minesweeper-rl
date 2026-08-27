@@ -1,3 +1,7 @@
+# Overview
+
+This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with DAgger. 
+
 # Minesweeper RL
 
 Train an AI to play Minesweeper by imitating a perfect-ish rule-based
