@@ -10,7 +10,7 @@ The training was managed by 2 agents, a trainer agent handling all the bash comm
 
 **Note: if you plan on using my handoff.md, be sure to change the current task section to whatever your agents are doing currently, or it could cause issues**
 
-Since an agent can't be directly interrupted during bash calls without the bash call stopping, a mailbox system was implemented where an ops agent/myself can append into a JSON file, where the main trainer agent reads on a timed loop. This allows "direct communications" throughout the long training sessions which lasted ~4h without interfering with the bash call.
+Since an agent can't be directly interrupted during bash calls without the bash call stopping, a mailbox system was implemented where an ops agent/myself can append into a JSON file, where the [main trainer agent reads on a timed loop](https://github.com/eedocsmith0/minesweeper-rl/blob/master/keepalive.sh). This allows "direct communications" throughout the long training sessions which lasted ~4h without interfering with the bash call.
 
 ## Monitoring of training when im not at my keyboard
 
