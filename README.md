@@ -4,6 +4,16 @@
 
 This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with [DAgger](https://imitation.readthedocs.io/en/latest/algorithms/dagger.html). 
 
+## Agent Usage
+
+The training was managed by 2 agents, a trainer agent handling all the bash commands for the training, another ops agent which gives updates to the training session by reading files and coordinating with the main trainer agent through a mailbox system.
+
+Since an agent can't be directly interrupted during bash calls without the bash call stopping, a mailbox system was implemented where an ops agent/myself can append into a JSON file, where the main trainer agent reads on a timed loop. This allows "direct communications" throughout the long training sessions which lasted ~4h without interfering with the bash call.
+
+## Monitoring of training when im not at my keyboard
+
+Since I am usually at school during the day, [kimaki](https://github.com/remorses/kimaki) was used so i could have the ops agent update me on training status through discord. Of course, there are many other ways to do this through other messaging platforms(whatsapp, telegram, etc), and is also not necessary for the training to work.
+
 # Minesweeper RL
 
 Train an AI to play Minesweeper by imitating a perfect-ish rule-based
