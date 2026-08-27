@@ -2,7 +2,7 @@
 
 # Overview
 
-This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with DAgger. 
+This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with [DAgger](https://imitation.readthedocs.io/en/latest/algorithms/dagger.html). 
 
 # Minesweeper RL
 
