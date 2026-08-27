@@ -1,3 +1,5 @@
+# Most of the significant agent iterations are located in release V1.0
+
 # Overview
 
 This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with DAgger. 
