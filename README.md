@@ -204,3 +204,4 @@ keepalive.sh &                          # auto-restart watcher+dashboard if they
 All board sizes take `--width W --height H --mines M`. Training also
 takes `--run NAME` to label its curves on the dashboard.
 
+Ox Alpha (GLM 5.3 Flash) was used to assist in this project as an agent
