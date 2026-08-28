@@ -4,6 +4,10 @@
 
 This is a personal project for me to learn more about the reinforcement learning aspect of ML, especially working with [DAgger](https://imitation.readthedocs.io/en/latest/algorithms/dagger.html). 
 
+I have been getting into speedrunning minesweeper recently, and despite my timing not being very good, I have fallen in love with the game. This led me to wonder how well an ML model would do when asked to solve a board, and how long it would actually take to train one. I saw this as a good chance to learn more about ML, especially reinforcement learning, so i decided to start this project. 
+
+[My minesweeper account](https://minesweeper.online/player/55447331) for anyone interested
+
 ## Agent Usage
 
 The training was managed by 2 agents, a trainer agent handling all the bash commands for the training, another ops agent which gives updates to the training session by reading files and coordinating with the main trainer agent through a mailbox system.
